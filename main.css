@@ -15,8 +15,6 @@ body {
 
 
 .homepage {
-    display: none;
-    position: relative;
     width: 100%;
     margin-top: 100px;
 }
@@ -160,6 +158,8 @@ body {
 }
 
 .card-detail {
+    text-decoration: none;
+    color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -195,42 +195,33 @@ body {
 
 .title {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: end;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 92px;
 }
 
-.homepage_contact-mess h1 {
-    font-size: 84px;
-}
-
-.title button {
-    border: none;
-    height: 100%;
-    padding: 20px;
-    background-color: #1D1D1D;
-    color: #fff;
-    opacity: 0.3;
-}
-
-.homepage_contact-mess h2 {
-    font-size: 48px;
+.title h1 {
+    font-size: 28px;
     font-weight: 400;
-    opacity: 0.3;
-    margin: 31px 0 156px 0;
 }
 
-.input-info {
-    display: flex;
-    flex-direction: row;
+.contact-email {
+    text-align: center;
+    margin-bottom: 92px;
 }
 
-.email, .phone {
-    width: 50%;
+.my-email {
+    font-size: 28px;
+    color: #686B7A;
+}
+
+.name-email {
+    font-size: 48px;
 }
 
 #mr-1 {
     margin: 31px 0 60px 0;
+    font-size: 84px;
 }
 
 .socail {
@@ -242,19 +233,6 @@ body {
 .socail h1 {
     font-size: 36px;
 }
-
-
-/* WORK DETAIL PAGE */
-.detail-page {
-    position: relative;
-    width: 100%;
-    margin-top: 100px;
-    display: none;
-}
-
-
-
-
 
 .mail-and-menu {
     display: flex;
@@ -289,6 +267,156 @@ body {
     padding: 12px 24px;
 }
 
-.active {
-    display: block;
+
+/* WORK DETAIL PAGE */
+.detail-page {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.crm {
+    border-radius: 100px;
+    margin-left: 18px;
+    background-color: #1D1D1D;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 24px;
+}
+
+.mobile-app {
+    border-radius: 100px;
+    margin-left: 18px;
+    background-color: #1D1D1D;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 24px;
+}
+
+.background-thumbnail {
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+}
+
+.thumbnail {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    background-color: #D1D1D1;
+    margin-right: 100px;
+}
+
+.thumbnail img {
+    padding: 40px 0;
+    width: 30%;
+}
+
+.resour_zoomin {
+    margin: 500px 0;
+}
+
+.thumbnail-zoomin {
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail-zoomin img {
+    padding: 60px 80px;
+    width: 30%;
+}
+
+.story_challenge {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 200px;
+}
+
+
+.story {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.story-text h1 {
+    font-size: 68px;
+    margin-bottom: 50px;
+}
+
+.challenge-text h1 {
+    font-size: 68px;
+    margin-bottom: 50px;
+}
+
+.challenge {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.visual-desgin {
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.visual-desgin h1{
+    font-size: 200px;
+}
+
+.visual-design-theme {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.visual-design-theme img {
+    width: 20%;
+}
+
+.visual-design-theme {
+    margin-bottom: 500px;
+}
+
+.next-project {
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.next-project h1 {
+    font-size: 200px;
+}
+
+
+
+
+.back-and-menu {
+    display: flex;
+    position: fixed;
+    bottom: 40px;
+    right: 150px;
+    margin: 0;
+}
+
+.back {
+    border-radius: 100px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #fff;
+    color: #1D1D1D;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.fa-arrow-left {
+    padding-left: 30px;
+    color: #1D1D1D;
+}
+
+.back p {
+    margin: 0;
+    padding: 12px 30px 12px 10px;
 }

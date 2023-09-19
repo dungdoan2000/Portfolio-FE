@@ -5,7 +5,6 @@ let cursor = carQuardian.querySelector('.cursor')
 carQuardian.addEventListener('mousemove', (e)=>{
     const x = e.clientX - carQuardian.getBoundingClientRect().left;
     const y = e.clientY - carQuardian.getBoundingClientRect().top;
-    console.log(x)
 
     cursor.style.left = `${x}px`;
     cursor.style.top = `${y}px`;
@@ -36,16 +35,3 @@ function randomPosition(e) {
 // }
 
 // moveSquare();
-
-let home = document.querySelector('.homepage')
-let mail = document.querySelector('.mail')
-
-let work = document.querySelector('.detail-page')
-let cardDetail = document.querySelectorAll('.card-detail')
-cardDetail.forEach((e)=>{
-    e.onclick = function() {
-        work.classList.add('active')
-        home.classList.remove('active')
-    }
-})
-
